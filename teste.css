@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: red ;
+    line-height: 1.6em;
+    background-image: url('vermelho.jpg');
+    background-position: center;
+}
+.paginas {
+    background-image: url('padrão');
+    background-position: center;
+    text-align: center;
+    
+}
+    
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.titulo {
+    text-align: center;
+}
+.btn {
+    background-color: rgb(213, 210, 219);
+    background-position: center;
+    border: none;
+    color: rgb(4, 63, 40);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer {
+    color: chocolate;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    background-image: url('raios.jpg');
+    background-position: center;
+}
+
